@@ -144,28 +144,3 @@ export interface Stats {
   pendingPHPApplications: number;
 }
 
-export interface Event {
-  totalStudents: number;
-  totalTasks: number;
-  totalEvents: number;
-  totalPoints: number;
-  averagePoints: number;
-  taskCompletionRate: number;
-  eventParticipationRate: number;
-  phpMembers: number;
-}
-
-export interface Event {
-  id: string;
-  title: string;
-  description: string;
-  status: 'upcoming' | 'ongoing' | 'completed' | 'cancelled';
-  date: string;
-  points: number;
-  location: string;
-  maxParticipants: number;
-  currentParticipants: number;
-  createdBy: string;
-  createdAt: string;
-}
-

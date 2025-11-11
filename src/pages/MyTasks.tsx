@@ -313,10 +313,10 @@ export const MyTasks = () => {
                         onChange={handleFileSelect}
                         className="hidden"
                       />
-                      <Button variant="outline" size="sm" as="span">
-                        <Upload className="w-4 h-4 mr-2" />
+                      <span className="inline-flex items-center gap-2 px-3 py-1.5 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors text-sm font-medium cursor-pointer">
+                        <Upload className="w-4 h-4" />
                         Upload Files
-                      </Button>
+                      </span>
                     </label>
                   </div>
                   {selectedFiles.length > 0 && (

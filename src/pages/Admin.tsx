@@ -30,11 +30,12 @@ export const Admin = () => {
     totalStudents: 0,
     totalTasks: 0,
     totalEvents: 0,
-    totalPoints: 0,
-    averagePoints: 0,
-    taskCompletionRate: 0,
-    eventParticipationRate: 0,
-    phpMembers: 0,
+    totalUsers: 0,
+    totalPHP: 0,
+    pendingTasks: 0,
+    pendingEvents: 0,
+    totalPointsAwarded: 0,
+    pendingPHPApplications: 0,
   });
   const [phpMembers, setPHPMembers] = useState<User[]>([]);
   const [students, setStudents] = useState<User[]>([]);

@@ -45,7 +45,7 @@ export const Leaderboard = () => {
 
       {/* Top 3 Podium */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {sortedLeaderboard.slice(0, 3).map((entry, index) => {
+        {sortedLeaderboard.slice(0, 3).map((_, index) => {
           const positions = [1, 0, 2]; // Reorder for visual: 2nd, 1st, 3rd
           const entryIndex = positions[index];
           const entryData = sortedLeaderboard[entryIndex];
