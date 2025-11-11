@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Peer Helpers Program (PHP) - Frontend
 
 A modern, responsive React frontend for a school Peer Helpers Program built with **React + Vite**, **TailwindCSS**, **React Router**, and **Framer Motion**.
@@ -176,4 +177,3 @@ All types are defined in `src/types/index.ts`:
 ## 📄 License
 
 This project is part of a Capstone project.
-
